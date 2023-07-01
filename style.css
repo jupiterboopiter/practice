@@ -1,0 +1,55 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/back4.jpg);
+    background-size: cover;
+    padding-top: 45px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    letter-spacing: 12px;
+    font-weight: 300;
+    color: white;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(214, 138, 51);
+    border-bottom: solid 1px rgb(214, 138, 51);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    transition: .4s;
+    color: #51c8e9;
+}
