@@ -33,6 +33,8 @@ nav {
 span {
     color: rgb(214, 138, 51);
     border-bottom: solid 1px rgb(214, 138, 51);
+    text-shadow: 5px 5px 10px #ff9933;
+
 }
 
 nav ul li {
@@ -52,6 +54,7 @@ nav ul li a {
 nav ul li a:hover {
     transition: .4s;
     color: #684bca;
+    text-shadow: 5px 5px 10px #684bca;
 }
 
 .btn {
@@ -69,6 +72,8 @@ nav ul li a:hover {
     position: relative;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-shadow: 1px 1px #51c8e9;
+
 }
 
 .btn::before {
@@ -116,3 +121,71 @@ nav ul li a:hover {
     opacity: 1;
 }
 
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: #684bca;
+    margin: 20px 0px 20px;
+    letter-spacing: 15px;
+    font-weight: 950px;
+    font-size: 80px;
+    text-shadow: -2px 4px 3px #ffffff;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.news form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.news form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 150px 14px 15px;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.news form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #51c8e9;
+    color: white;
+    box-shadow: 0px 0px 20px #ffffff, 0px 0px 25px #51c8e9;
+    top: 6px;
+    right: 6px;
+    font-weight: 950;
+    letter-spacing: 2px;
+}
+
+::placeholder { 
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 8px 5px 8px #ffffff;
+}
