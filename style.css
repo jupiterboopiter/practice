@@ -237,3 +237,24 @@ h4 {
     font-size: 18px;
     margin-bottom: 45px;
 }
+
+button {
+    background-color: #51c8e9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+button:hover {
+    background: url(https://64.media.tumblr.com/e0d747df3c0e0399dccd9dc8f1418aa7/b7b1684d4cbd56c8-1e/s1280x1920/1bd9faf6897d5239569f7fd758072bd9b4bc6f26.gif);
+    border: 2px solid white;
+    cursor: pointer;
+    text-shadow: 1px 1px white;
+    transform: scale(1.1)
+}
