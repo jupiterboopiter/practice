@@ -463,3 +463,43 @@ footer p:nth-child(2) {
     bottom: 35px;
     font-size: 16px;
 }
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 35px 10px;
+    gap: 35px;
+    background: #000;
+}
+
+details {
+    border: 1px outset;
+    padding: 20px;
+}
+
+.bar {
+    font-size: 50px;
+    color: white;
+}
+
+.info {
+    color: white;
+    font-size: 18px;
+}
+
+details h6 {
+    color: #ff9933;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.questions ul li {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+.info p {
+    padding-top: 15px;
+}
