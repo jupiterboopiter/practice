@@ -133,8 +133,8 @@ h1 {
     margin: 20px 0px 20px;
     letter-spacing: 15px;
     font-weight: bolder;
-    font-size: 80px;
-    text-shadow: -2px 4px 3px black;
+    font-size: 85px;
+    text-shadow: -2px 2px 1px #ffffff;
 }
 
 h3 {
@@ -255,10 +255,11 @@ button {
     transition: transform .4s;
     margin-bottom: 30px;
     font-size: 25px;
+    letter-spacing: 2px;
 }
 
 button:hover {
-    background: url(https://64.media.tumblr.com/e0d747df3c0e0399dccd9dc8f1418aa7/b7b1684d4cbd56c8-1e/s1280x1920/1bd9faf6897d5239569f7fd758072bd9b4bc6f26.gif);
+    background: url(https://i.pinimg.com/originals/c6/a2/fb/c6a2fb8cd65edc585019348f6aa48e45.gif);
     border: 2px solid white;
     cursor: pointer;
     text-shadow: 1px 1px white;
@@ -501,6 +502,7 @@ details {
     font-size: 50px;
     color: white;
     padding: 20px;
+    cursor: pointer;
 }
 
 .info {
